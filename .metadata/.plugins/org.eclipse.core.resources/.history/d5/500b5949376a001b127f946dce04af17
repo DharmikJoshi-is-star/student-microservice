@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: student-client-create-delete
+    
+server:
+  port: 8070
+  
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:    hostname: localhost
+    
+logging:
+  level:    com:
+      netflix:
+        eureka: OFF
+    
+      
+  

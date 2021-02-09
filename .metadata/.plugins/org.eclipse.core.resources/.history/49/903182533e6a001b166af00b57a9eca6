@@ -1,0 +1,13 @@
+package com.studentapp.studentclientreadupdate;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class StudentClientReadUpdateApiApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(StudentClientReadUpdateApiApplication.class, args);
+	}
+
+}

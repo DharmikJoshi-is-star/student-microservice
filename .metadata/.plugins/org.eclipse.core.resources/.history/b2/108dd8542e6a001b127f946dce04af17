@@ -1,0 +1,13 @@
+package com.studentapp.studentclientcreatedelete;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class StudentClientCreateDeleteApiApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(StudentClientCreateDeleteApiApplication.class, args);
+	}
+
+}

@@ -1,0 +1,3 @@
+spring.application.name= = student-eureka-service
+server.port=8070
+
